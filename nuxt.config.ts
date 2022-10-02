@@ -47,12 +47,13 @@ export default {
 
   i18n: {
     locales: [
-      { code: 'ja', file: 'ja.js' },
-      { code: 'en', file: 'en.js' },
+      { code: 'ja', name: '日本語', file: 'ja.js' },
+      { code: 'en', name: 'English', file: 'en.js' },
     ],
     defaultLocale: 'ja',
     lazy: true,
     langDir: 'locales',
+    vueI18nLoader: true,
   }
 
 }

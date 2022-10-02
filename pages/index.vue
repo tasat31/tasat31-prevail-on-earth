@@ -1,5 +1,8 @@
 <template>
-  <Header />
+  <v-layout>
+    <Header />
+    <Introduction />
+  </v-layout>
 </template>
 
 <script lang="ts">
